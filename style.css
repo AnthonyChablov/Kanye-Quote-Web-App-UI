@@ -1,0 +1,153 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: 'Gotham' ,sans-serif;
+}
+
+.container{
+    width:90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.container-2{
+    width: 90%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+
+.navigation{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    background-color: #000;   
+    color:#E1E1E1; 
+    padding: 10px 0;
+    padding-bottom: 3.9px;
+   
+}
+
+.main-header{
+    
+    background-color: #2941ab;
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-size: 175%;
+    background-position: 46% 4%;
+    -moz-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+    color: #1ed760;
+    padding-top: 10px;
+    padding-bottom: 300px;
+}
+
+.main-header__contents{
+    text-align: center;
+}
+
+.title{
+
+    display: block;
+    padding: 0px 0px 0.67em;
+
+    letter-spacing: -0.04em !important;
+
+
+    /* 
+    padding-top:75px;
+    margin-bottom: 50px;
+    
+    font-size: 100px; */
+}
+
+@media (min-width: 1200px){
+    .title{
+        width: 800px;
+        text-indent: -3.3em;
+        transform: translate(125px);
+    
+        font-size: 156px;
+        line-height: 166px;
+        padding-bottom: 40px;
+    }
+}
+
+
+@media(min-width: 480px){
+    .title{
+        width: 754px;
+        font-size: 104px;
+        line-height: 104px;
+        padding-bottom: 24px;
+    }
+}
+
+@media(min-width: 992px){
+    .title{
+        font-size: 80px;
+        line-height: 88px;
+    }
+}
+
+@media(min-width: 768px) {
+    .title{
+        font-size: 64px;
+        line-height: 72px;
+        letter-spacing: -2px;
+    }
+    
+}
+
+.info{
+    font-size: 18px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size:14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-transform: none;
+
+
+    color: #2941ab;
+    background-color: #1ed760;
+    border-radius: 100px;
+
+    margin-top: 15px;
+    padding: 13px 40px;
+}
+.btn:hover{
+    filter: brightness(110%);
+    padding: 14px 45px;
+}
+.insert{
+    background-color: black;
+    padding: 205px 0px;
+}
+
+.inserted-text{
+    color: #E1E1E1;
+}
+
+.container-2 .row{
+    display: flex;
+}
+
+.col+.col{
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
